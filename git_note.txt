@@ -1,0 +1,34 @@
+git笔记
+
+1. 创建版本仓库
+git init
+
+2. 添加文件到Git仓库
+1) git add <file>	可反复多次使用，添加多个文件
+2) git commit		提交添加的文件
+
+3. 查看Git仓库当前的状态
+git status
+
+4. 查看Git仓库的修改内容
+git diff
+
+5. 提交修改的文件到Git仓库
+1) git add <file>	可反复多次使用，添加多个文件
+2) git commit
+
+6. 查看Git仓库提交文件的历史纪录
+git log
+git log --pretty=oneline	查看Git仓库的历史纪录，且每条记录只显示一行
+
+7. 回退到Git仓库的上一个版本
+git reset --hard HEAD^
+git reset --hard HEAD^^		回退到Git仓库的上上个版本
+git reset --hard HEAD-100	回退到Git仓库现在版本往上100个版本
+注：使用过回退命令后，git log 命令将无法看到当前版本之前的版本记录
+
+8. 回退到指定 commit id 的版本
+git reset --hard commit_id
+
+9. 查看Git仓库的每一次操作的版本记录，包含回退版本操作，可以查看所有的版本
+git reflog
