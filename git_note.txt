@@ -32,3 +32,6 @@ git reset --hard commit_id
 
 9. 查看Git仓库的每一次操作的版本记录，包含回退版本操作，可以查看所有的版本
 git reflog
+
+从远程Git仓库拉取最新提交
+git pull
