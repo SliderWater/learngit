@@ -50,7 +50,23 @@ git reset HEAD readme.txt
 git rm -- readme.txt
 git commit -m 'message'
 
-15. 
+15. 检测本地是否有SSH Key文件
+ls -al ~/.ssh			查看用户主目录下是否有.ssh路径
+
+16. 创建SSH Key
+ssh-keygen -t rsa -C "youremail@example.com"
+
+17. 添加远程仓库
+1) 在github上创建空仓库learngit.git
+2) 在本地learngit仓库下运行命令：
+git remote add origin git@github.com:yourGithubName/learngit.git
+3) 把本地仓库的所有内容推送到github
+git push -u origin master	
+注：-u 参数在第一次推送master分支时使用，Git会把本地master分支和远程master分支关联起来
+
+
+
+ 
 
 
 
