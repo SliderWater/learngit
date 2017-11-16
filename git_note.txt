@@ -20,6 +20,7 @@ git diff
 6. 查看Git仓库提交文件的历史纪录
 git log
 git log --pretty=oneline	查看Git仓库的历史纪录，且每条记录只显示一行
+git log --graph -pretty=oneline --abbrev-commmit 查看分支合并图
 
 7. 回退到Git仓库的上一个版本
 git reset --hard HEAD^
@@ -62,11 +63,30 @@ ssh-keygen -t rsa -C "youremail@example.com"
 git remote add origin git@github.com:yourGithubName/learngit.git
 3) 把本地仓库的所有内容推送到github
 git push -u origin master	
-注：-u 参数在第一次推送master分支时使用，Git会把本地master分支和远程master分支关联起来
+注：-u 参数在第一次推送master分支时使用，Git会把本地master分支和远程master分支关联起来，不是第一次推送，不加-u参数
+
+18. 从远程仓库克隆
+git clone git@github.com:yourGithubName/learngit.git
+
+19. 查看分支
+git branch
+
+20. 创建分支
+git branch <name>
+
+21. 切换分支
+git checkout <name>
+
+22. 创建+切换分支
+git checkout -b <name>
+
+23. 合并某分支到当前分支
+git merge <name>
+
+24. 删除分支
+git branch -d <name>
 
 
-
- 
 
 
 
