@@ -6,4 +6,5 @@ The file is pushed to github.
 Create a new branch is quick.
 Creating a new branch is quick and simple.
 Creating a new branch is quick.
+This line is write for conflict.
 This line is to solve conflict.
