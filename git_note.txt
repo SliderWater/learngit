@@ -11,7 +11,9 @@ git init
 git status
 
 4. 查看Git仓库的修改内容
-git diff
+git diff				查看所有文件在工作区和暂存区的区别
+git diff <file>			查看文件在工作区和暂存区的区别
+git diff HEAD -- <file>	查看文件在工作区和版本库里最新版本的区别
 
 5. 提交修改的文件到Git仓库
 1) git add <file>	可反复多次使用，添加多个文件
@@ -48,6 +50,7 @@ git checkout -- readme.txt
 git reset HEAD readme.txt
 
 14. 删除文件
+git rm <file>			如果执行 git rm 前还未删除文件，git rm 会执行删除文件的操作
 git rm -- readme.txt
 git commit -m 'message'
 
