@@ -95,3 +95,9 @@ git branch -d <name>
 
 从远程Git仓库拉取最新提交
 git pull
+
+
+修改指定git中的用户名和邮箱，需要进入指定的git目录
+git config user.name 'your name'
+git config user.email 'your email'
+
