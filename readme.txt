@@ -5,6 +5,4 @@ Git tracks changes of files.
 The file is pushed to github.
 Create a new branch is quick.
 Creating a new branch is quick and simple.
-Creating a new branch is quick.
-This line is write for conflict.
-This line is to solve conflict.
+This file is just for test.
