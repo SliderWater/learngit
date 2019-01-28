@@ -1,2 +1,3 @@
 This file is create for resoving conflicts.
 This is the second line.
+this line is edit on branch conflict.
